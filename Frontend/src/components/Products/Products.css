@@ -1,0 +1,31 @@
+.products-text{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.products-main{
+    margin-top: 80px;
+}
+.product-info{
+    text-align: center;
+}
+.product-btns{
+    text-align: center;
+}
+.search-form{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+@media screen and (max-width:500px){
+.product-col{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+}

@@ -1,0 +1,20 @@
+.test-col{
+    background-color: #F3F3F3;
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.testi-img img{
+    width: 90px;
+}
+@media screen and (max-width:500px){
+.testi-contain{
+    margin-top: 50px;
+}
+
+.discard{
+    display: none;
+}
+}

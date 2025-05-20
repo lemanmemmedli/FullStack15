@@ -1,0 +1,40 @@
+.hero-main{
+    background-image: url(../../assets/hero-image-size-1-2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-btn{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+
+.hero-text h1{
+    font-size: 65px;
+}
+
+.hero-text{
+    margin: 15px;
+    transform: translate(70%,60%);
+    width: 450px;
+}
+
+@media screen and (max-width:500px){
+.hero-text h1{
+    font-size: 45px;
+    text-align: center;
+}
+.hero-text{
+    text-align: center;
+
+    transform: translate(0%,60%);
+
+}
+.hero-main{
+ 
+    height: 60vh;
+background-size: cover;
+}
+}
